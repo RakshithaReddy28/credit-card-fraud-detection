@@ -3,9 +3,9 @@ import pickle
 import numpy as np
 
 # Load model and scaler
-model = pickle.load(open(r"C:\Users\raksh\fraud_model.pkl", "rb"))
-scaler = pickle.load(open(r"C:\Users\raksh\scaler.pkl", "rb"))
+model = pickle.load(open("fraud_model.pkl", "rb"))
 
+scaler = pickle.load(open("scaler.pkl", "rb"))
 
 # Title
 st.title("Credit Card Fraud Detection")
